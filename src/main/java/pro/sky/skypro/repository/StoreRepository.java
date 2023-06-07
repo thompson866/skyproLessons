@@ -39,7 +39,6 @@ public class StoreRepository {
             store.replace(id, item);
         }
     }
-
     public Item delete(int id) {
         return store.remove(id);
 
